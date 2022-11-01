@@ -1,19 +1,20 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import Carousel from '../components/Carousel/Carousel';
 import { Content } from '../components/Content/Content';
 import Features from '../components/Features/Features';
 import Hero from '../components/Hero/Hero';
 import { heroOne, heroTwo, heroThree } from '../data/HeroData';
+import FormSignIn from '../components/Form/FormSignIn';
+const SignUp = () => {
 
-// Hero Feature Content Carousel
 
-const Home = () => {
+
 	return (
 		<>
-			<Hero />
+				<FormSignIn />
 			
 		</>
 	);
 };
 
-export default Home;
+export default SignUp;

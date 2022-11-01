@@ -6,17 +6,16 @@ import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './H
 const Hero = () => {
 	return (
 		<HeroSection>
-			<HeroVideo src="./assets/hero.mp4" autoPlay muted />
+			<HeroVideo src="./assets/hero.mp4" loop autoPlay muted />
 			<Container>
-				<MainHeading>Your data is secure with us</MainHeading>
+				<MainHeading>Internet research just got easier with <i>ESPARK</i></MainHeading>
 				<HeroText>
-					We provide the best security systems for clients all over the world
+					We provide the best research assistant tools to students out there
 				</HeroText>
 				<ButtonWrapper>
 					<Link to="signup">
 						<Button>Get Started</Button>
 					</Link>
-					<HeroButton>Find More</HeroButton>
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>

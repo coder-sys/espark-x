@@ -22,8 +22,8 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assets/logo.png" />
-							Delta
+							<SocialIcon src="./assets/esparklogo.jpg.jpg" />
+							ESPARK
 						</FooterLogo>
 						<FooterAddress>
 							69 Street, Delta Building, US Road, Los Angeles 123
@@ -53,7 +53,7 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>Delta © 2021</FooterRights>
+				<FooterRights>ESPARK © 2022</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);
